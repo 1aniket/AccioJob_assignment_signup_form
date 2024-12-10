@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    background-color:black;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    overflow-x: hidden;
+    padding: 50px 0;
+    
+}
+.form-container
+{
+    color: white;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 154px !important;
+   
+    
+    
+    
+}
+.header-text
+{
+    
+    width: 600px;
+    height: 144px;
+    font-weight: 400;
+    line-height: 77.45px;
+    font-size: 64px;
+}
+.input-feild
+{
+    display: flex;
+    height: 46px;
+    width: 100%;
+    color: white !important;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 29px;
+}
+input
+{
+    color: white !important;
+    background: transparent;
+    
+}
+::placeholder
+{
+    color: white;
+   
+
+}
+.radio_btns_input
+{
+    width: 17px;
+
+    
+}
+.input-radio
+{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.rb
+{
+    margin-left: 0px;
+    border-bottom: none !important;
+    margin-right: 10px;
+    padding: 0 !important;
+}
+
+input[type="radio"], input[type="checkbox"]
+{
+    height: 17px;
+    width: 17px;
+    margin-right: 10px;
+}
+
+  .cb
+  {
+    align-items: center;
+    border: none !important;
+  }
+  .su-btn
+  {
+    width: 226px;
+    height: 58px;
+    background-color: #fff;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+  }
